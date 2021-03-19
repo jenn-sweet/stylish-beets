@@ -1,0 +1,14 @@
+html {
+box-sizing: border-box;
+background-color: #c9b5ab;
+line-height: 1.5;
+}
+
+*, *::before, *,::after {
+  box-sizing: inherit;
+}
+
+/* font-family: 'PT Sans', sans-serif; */
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif; */
