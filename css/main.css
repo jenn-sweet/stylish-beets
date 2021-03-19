@@ -9,23 +9,39 @@ html {
 }
 
 h1 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
   color: #3f1662;
   font-size: 1.5rem;
 }
 
-nav {
-  font-family: 'PT Sans', sans-serif;
+nav ol{
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: normal;
-  color: ##8f2440;
 }
 
 nav a {
-  color: #3f1662;
+  color: #8f2440;
   text-decoration: none;
 }
+
+nav a:hover {
+  color: #3f1662;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "PT Serif", serif;
+  color: #222;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+
 
 
 
