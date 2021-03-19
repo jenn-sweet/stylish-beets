@@ -4,7 +4,7 @@ html {
   line-height: 1.5;
 }
 
-*, *::before, *,::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -15,35 +15,55 @@ h1 {
   font-size: 1.5rem;
 }
 
-nav ol{
+.nav {
   font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: normal;
 }
 
-nav a {
+.nav a {
   color: #8f2440;
   text-decoration: none;
 }
 
-nav a:hover {
+.nav a:hover {
   color: #3f1662;
   text-decoration: underline;
+}
+
+img {
+  width: 100%;
 }
 
 body {
   font-family: "PT Serif", serif;
   color: #222;
+  font-size: 0.8rem;
 }
 
 figcaption {
-  font-size: 0.8rem;
   font-style: italic;
 }
 
+div {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
 
+b {
+  font-weight: bold;
+}
 
+blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+}
 
+.common-varieties {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1662;
+  font-size: 1.25rem;
+}
 
 
 /* font-family: 'PT Sans', sans-serif; */
